@@ -1,0 +1,77 @@
+2022-05-02 06:48:37.7963|INFO|Farah.YasConnect.Omni.Common.CustomLogger|Log Event: Logger='' Level=Info Message='Omni FindallProducts response generated at: 6:48:37 AM' SequenceID=2385
+2022-05-02 06:48:37.8118|INFO|Farah.YasConnect.Omni.Common.CustomLogger|Log Event: Logger='' Level=Info Message='Omni web service response time(ms) for FindallProducts : 156.3725ms' SequenceID=2387
+2022-05-02 06:48:38.1326|INFO|Farah.YasConnect.Omni.Common.CustomLogger|Log Event: Logger='' Level=Info Message='Omni FindallProducts response generated at: 6:48:38 AM' SequenceID=2389
+2022-05-02 06:48:38.1481|INFO|Farah.YasConnect.Omni.Common.CustomLogger|Log Event: Logger='' Level=Info Message='Omni web service response time(ms) for FindallProducts : 148.6467ms' SequenceID=2391
+2022-05-02 06:48:38.1794|INFO|Farah.YasConnect.Omni.Common.CustomLogger|Log Event: Logger='' Level=Info Message='Event Time: 6:48:38 AM Method - ProductRepo ValidateSoapResponse ,  Exception : Login Required' SequenceID=2393
+2022-05-02 06:48:38.1951|INFO|Farah.YasConnect.Omni.Common.CustomLogger|Log Event: Logger='' Level=Info Message='Event Time: 6:48:38 AM Method - OMNI FindAllProducts ,  Exception : Exception of type 'Farah.YasConnect.Omni.Common.ApiException' was thrown.Login Required' SequenceID=2395
+2022-05-02 06:48:38.1951|INFO|Farah.YasConnect.Omni.Common.CustomLogger|Log Event: Logger='' Level=Debug Message='Event Time: 6:48:38 AM
+Request : Method: GET, RequestUri: 'https://fe-uat-omni-wrapperservice-new.azurewebsites.net/v1/products?tenantid=B2BPHUB', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Host: fe-uat-omni-wrapperservice-new.azurewebsites.net
+  Max-Forwards: 10
+  User-Agent: PostmanRuntime/7.29.0
+  Request-Id: |c6fac4a3-4fb8e75e3709b40f.c6fac4a4_
+  Postman-Token: 5f771a26-3c63-4e9a-93b1-f523e49893fa
+  SessionID: 
+  X-Forwarded-For: 122.160.138.147, [fde4:8dba:1200:355a:6c12:400:a0c:5007]:64391
+  Request-Context: appId=cid-v1:8999e58d-6409-4bde-ba5f-e086f6f7d1f6
+  X-ARR-LOG-ID: 7d027d49-170b-4237-819d-5417758aa60e
+  CLIENT-IP: [fde4:8dba:1200:355a:6c12:400:a0c:5007]:64391
+  DISGUISED-HOST: fe-uat-omni-wrapperservice-new.azurewebsites.net
+  X-SITE-DEPLOYMENT-ID: fe-uat-omni-wrapperservice-new
+  WAS-DEFAULT-HOSTNAME: fe-uat-omni-wrapperservice-new.azurewebsites.net
+  X-Forwarded-Proto: https
+  X-AppService-Proto: https
+  X-ARR-SSL: 2048|256|CN=Microsoft Azure TLS Issuing CA 01, O=Microsoft Corporation, C=US|CN=*.azurewebsites.net, O=Microsoft Corporation, L=Redmond, S=WA, C=US
+  X-Forwarded-TlsVersion: 1.2
+  X-Original-URL: /v1/products?tenantid=B2BPHUB
+  X-WAWS-Unencoded-URL: /v1/products?tenantid=B2BPHUB
+}
+Controller : Farah.YasConnect.Omni.Product.Api.Controllers.ProductsController
+Action : FindAllProducts
+APIError : {"error":{"errorcode":"401","errordescription":"Login Required"}}
+
+' SequenceID=2397
+2022-05-02 06:51:06.5269|INFO|Farah.YasConnect.Omni.Common.CustomLogger|Log Event: Logger='' Level=Info Message='Omni FindallProducts response generated at: 6:51:06 AM' SequenceID=476325
+2022-05-02 06:51:06.5425|INFO|Farah.YasConnect.Omni.Common.CustomLogger|Log Event: Logger='' Level=Info Message='Omni web service response time(ms) for FindallProducts : 171.8054ms' SequenceID=476327
+2022-05-02 06:51:06.8631|INFO|Farah.YasConnect.Omni.Common.CustomLogger|Log Event: Logger='' Level=Info Message='Omni FindallProducts response generated at: 6:51:06 AM' SequenceID=476329
+2022-05-02 06:51:06.9100|INFO|Farah.YasConnect.Omni.Common.CustomLogger|Log Event: Logger='' Level=Info Message='Omni web service response time(ms) for FindallProducts : 164.3381ms' SequenceID=476331
+2022-05-02 06:51:06.9256|INFO|Farah.YasConnect.Omni.Common.CustomLogger|Log Event: Logger='' Level=Info Message='Event Time: 6:51:06 AM Method - ProductRepo ValidateSoapResponse ,  Exception : Login Required' SequenceID=476333
+2022-05-02 06:51:06.9413|INFO|Farah.YasConnect.Omni.Common.CustomLogger|Log Event: Logger='' Level=Info Message='Event Time: 6:51:06 AM Method - OMNI FindAllProducts ,  Exception : Exception of type 'Farah.YasConnect.Omni.Common.ApiException' was thrown.Login Required' SequenceID=476335
+2022-05-02 06:51:06.9725|INFO|Farah.YasConnect.Omni.Common.CustomLogger|Log Event: Logger='' Level=Debug Message='Event Time: 6:51:06 AM
+Request : Method: GET, RequestUri: 'https://fe-uat-omni-wrapperservice-new.azurewebsites.net/v1/products?tenantid=B2BPHUB', Version: 1.1, Content: System.Web.Http.WebHost.HttpControllerHandler+LazyStreamContent, Headers:
+{
+  Connection: Keep-Alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: br
+  Host: fe-uat-omni-wrapperservice-new.azurewebsites.net
+  Max-Forwards: 10
+  User-Agent: PostmanRuntime/7.29.0
+  Postman-Token: ed383d31-87de-4420-a6e2-bae769692e62
+  SessionID: B2BPHUB
+  X-Forwarded-For: 122.160.138.147, [fde4:8dba:1200:355a:6c12:400:a0c:5007]:64620
+  Request-Id: |c6fac4a8-4fb8e75e3709b40f.c6fac4a9_
+  Request-Context: appId=cid-v1:8999e58d-6409-4bde-ba5f-e086f6f7d1f6
+  X-WAWS-Unencoded-URL: /v1/products?tenantid=B2BPHUB
+  CLIENT-IP: [fde4:8dba:1200:355a:6c12:400:a0c:5007]:64620
+  X-ARR-LOG-ID: 6a3b0064-743c-4569-82ba-57b8789d2632
+  DISGUISED-HOST: fe-uat-omni-wrapperservice-new.azurewebsites.net
+  X-SITE-DEPLOYMENT-ID: fe-uat-omni-wrapperservice-new
+  WAS-DEFAULT-HOSTNAME: fe-uat-omni-wrapperservice-new.azurewebsites.net
+  X-Original-URL: /v1/products?tenantid=B2BPHUB
+  X-ARR-SSL: 2048|256|C=US, O=Microsoft Corporation, CN=Microsoft Azure TLS Issuing CA 01|C=US, S=WA, L=Redmond, O=Microsoft Corporation, CN=*.azurewebsites.net
+  X-Forwarded-Proto: https
+  X-AppService-Proto: https
+  X-Forwarded-TlsVersion: 1.2
+}
+Controller : Farah.YasConnect.Omni.Product.Api.Controllers.ProductsController
+Action : FindAllProducts
+APIError : {"error":{"errorcode":"401","errordescription":"Login Required"}}
+
+' SequenceID=476337
